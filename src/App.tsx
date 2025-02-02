@@ -9,13 +9,19 @@ import { SemesterMainPage } from './pages/SemesterPages/SemesterMainPage';
 import { FacultyInfo } from "./pages/FacultyInfo";
 import { SubjectPage } from './pages/SemesterPages/SubjectPage';
 import { Breadcrumb } from './components/BreadCrumb';
+import { Footer } from './components/Footer';
+import { Header } from './components/Header';
 
 function App() {
 
   return (
+    <div className='flex flex-col max-h-screen min-h-screen'>
+
+    
     <BrowserRouter>
     <SpeedInsights/>
     <Analytics/>
+    <Header/>
     <Breadcrumb/>
     <Routes>
       <Route path="/" element={<HomePage />} />
@@ -26,9 +32,10 @@ function App() {
       <Route path="/StudyMaterial/Semester/:semesterId" element={<SemesterMainPage />} />
       <Route path="/StudyMaterial/Semester/:semesterId/:subject" element={<SubjectPage />} />
     </Routes>
+    <Footer/>
   </BrowserRouter>
   
-
+  </div>
   )
 }
 

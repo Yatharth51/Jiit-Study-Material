@@ -5,7 +5,7 @@ export function Breadcrumb() {
   const pathnames = location.pathname.split("/").filter((x) => x);
 
   return (
-    <div className="breadcrum bg-black pl-20 pt-10 hover:underline">
+    <div className="breadcrum bg-black pl-20 pt-10 hover:underline mt-8 pr-10">
       <Link to="/">Home</Link>
       {pathnames.map((name, index) => {
         const routeTo = `/${pathnames.slice(0, index + 1).join("/")}`;
