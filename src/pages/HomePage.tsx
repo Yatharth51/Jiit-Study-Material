@@ -12,9 +12,9 @@ export function HomePage(){
         <Card title = "Study Material"/>
         </Link>
 
-        <Link to={'/FacultyInfo'}>
+        {/* <Link to={'/FacultyInfo'}>
         <Card title = "Faculty Information"/>
-        </Link>
+        </Link> */}
         </div>
         </Background>
     </div>
