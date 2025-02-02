@@ -43,7 +43,7 @@ export const SubjectContent = [
     {
         url : "OpenSourceSoftwareDevelopment",
         title : "Open Source Software Development" ,
-        pyqs : ""
+        pyqs : "https://drive.google.com/drive/folders/1xphNnOajWfBHOXrcFTsoMZ6BRp92N5rb?usp=sharing"
     },{
         url : "IntroductiontoLargeScaleDatabaseSystem",
         title : "Introduction to Large Scale Database System" ,

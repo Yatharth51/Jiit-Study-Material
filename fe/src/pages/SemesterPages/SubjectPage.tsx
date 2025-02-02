@@ -17,9 +17,9 @@ export function SubjectPage(){
     return (
         <Background>
             <div className="p-20 flex gap-8 flex-wrap">
-                <a href={selectedSubject.pyqs}><Card title={"PYQs"}/></a>
-                <a href={selectedSubject.slides}><Card title={"Slides"}/></a>
-                <a href={selectedSubject.tutorials}><Card title={"Tutorials"}/></a>
+                {selectedSubject.pyqs ? <a href={selectedSubject.pyqs}><Card title={"PYQs"}/></a> : null}
+                {selectedSubject.slides?<a href={selectedSubject.slides}><Card title={"Slides"}/></a>:null}
+                {selectedSubject.tutorials?<a href={selectedSubject.tutorials}><Card title={"Tutorials"}/></a>:null}
             </div>
         </Background>
     )

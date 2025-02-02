@@ -10,7 +10,7 @@ export function Semester6content(){
         <Background>
             <div className="p-20 flex gap-8 flex-wrap">
 
-            {SubjectContent.map((obj)=><Link to={obj.url}> <Card title = {obj.title} /> </Link>)}
+            {SubjectContent.map((obj)=>( obj.pyqs ?<Link to={obj.url}> <Card title = {obj.title} /> </Link> : null))}
 
             </div>
         </Background>
