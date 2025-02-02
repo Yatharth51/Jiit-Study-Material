@@ -14,6 +14,8 @@ function App() {
 
   return (
     <BrowserRouter>
+    <SpeedInsights/>
+    <Analytics/>
     <Breadcrumb/>
     <Routes>
       <Route path="/" element={<HomePage />} />
@@ -25,6 +27,7 @@ function App() {
       <Route path="/StudyMaterial/Semester/:semesterId/:subject" element={<SubjectPage />} />
     </Routes>
   </BrowserRouter>
+  
 
   )
 }
