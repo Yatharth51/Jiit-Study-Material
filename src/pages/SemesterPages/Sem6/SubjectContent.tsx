@@ -48,5 +48,9 @@ export const SubjectContent = [
         url : "IntroductiontoLargeScaleDatabaseSystem",
         title : "Introduction to Large Scale Database System" ,
         pyqs : "https://drive.google.com/drive/folders/1xcM22x-WTLvUXNz05zoZESrmH7g9qRGB?usp=sharing"
+    },{
+        url : "BlockChainTechnology" ,
+        title : "Introduction to BlockChain Technology",
+        pyqs : "https://drive.google.com/drive/folders/1w3nC2RYW9wXRKzaYHCwsAt30UxmbAwiu?usp=sharing"
     }
 ]
