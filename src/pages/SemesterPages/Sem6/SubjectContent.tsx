@@ -33,7 +33,8 @@ export const SubjectContent = [
     },
     {
         url :"STAP",
-        title :"Sensor and Android Programming"
+        title :"Sensor and Android Programming",
+        pyqs : "https://drive.google.com/drive/folders/1Tn3joPtoXxAOf-TxK_NaU5n0gORJPidp?usp=sharing"
     },
     {
         url:"BigDataIngestion",
