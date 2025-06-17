@@ -6,11 +6,12 @@ import { HomePage } from './pages/HomePage'
 import { StudyMaterial } from "./pages/StudyMaterial";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { SemesterMainPage } from './pages/SemesterPages/SemesterMainPage';
-import { FacultyInfo } from "./pages/FacultyInfo";
+import { AdminInfo } from "./pages/TeacherInfoPages/AdminInfo";
 import { SubjectPage } from './pages/SemesterPages/SubjectPage';
 import { Breadcrumb } from './components/BreadCrumb';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
+import { BioTechFacultyInfo } from './pages/TeacherInfoPages/BiotechFaculty';
 
 function App() {
 
@@ -26,7 +27,8 @@ function App() {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/StudyMaterial" element={<StudyMaterial />} />
-      <Route path="/FacultyInfo" element={<FacultyInfo />} />
+      <Route path="/AdminInfo" element={<AdminInfo />} />
+      <Route path = "/BiotechFacultyInfo" element= {<BioTechFacultyInfo/>}/>
       
       {/* Dynamic route for each semester */}
       <Route path="/StudyMaterial/Semester/:semesterId" element={<SemesterMainPage />} />

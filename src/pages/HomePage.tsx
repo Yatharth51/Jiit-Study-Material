@@ -12,9 +12,14 @@ export function HomePage(){
         <Card title = "Study Material"/>
         </Link>
 
-        {/* <Link to={'/FacultyInfo'}>
-        <Card title = "Faculty Information"/>
-        </Link> */}
+        <Link to={'/AdminInfo'}>
+        <Card title = "Admin Information"/>
+        </Link> 
+
+        <Link to={'/BioTechFacultyInfo'}>
+        <Card title = "Biotechnology Faculty Information"/>
+        </Link> 
+
         </div>
         </Background>
     </div>
