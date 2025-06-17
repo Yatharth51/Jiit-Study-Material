@@ -12,6 +12,9 @@ import { Breadcrumb } from './components/BreadCrumb';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 import { BioTechFacultyInfo } from './pages/TeacherInfoPages/BiotechFaculty';
+import { CsFacultyInfo } from './pages/TeacherInfoPages/CSFaculty';
+import { EceFacultyInfo } from './pages/TeacherInfoPages/EceFaculty';
+import { TnpInfo } from './pages/TeacherInfoPages/TnpInfo';
 
 function App() {
 
@@ -29,6 +32,9 @@ function App() {
       <Route path="/StudyMaterial" element={<StudyMaterial />} />
       <Route path="/AdminInfo" element={<AdminInfo />} />
       <Route path = "/BiotechFacultyInfo" element= {<BioTechFacultyInfo/>}/>
+      <Route path = "/CsFacultyInfo" element= {<CsFacultyInfo/>}/>
+      <Route path = "/EceFacultyInfo" element= {<EceFacultyInfo/>}/>
+      <Route path = "/TnpInfo" element= {<TnpInfo/>}/>
       
       {/* Dynamic route for each semester */}
       <Route path="/StudyMaterial/Semester/:semesterId" element={<SemesterMainPage />} />
