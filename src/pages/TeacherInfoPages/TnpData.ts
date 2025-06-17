@@ -10,7 +10,7 @@ export const columns = [
 
 export const TnpData : TNPContact[] =[
     {
-    name : "Anita Marwah TNP",
+    name : "Anita Marwaha TNP",
     mobile : "99991 13754"
     },
     {
